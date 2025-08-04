@@ -292,7 +292,6 @@ def clean(src,dst):
             "You are a transcript editor. Clean the following SRT content by removing all timestamps and index numbers, "
             "fixing any grammar or spelling errors, and ensuring a natural, readable flow. The output should be a single block of plain text, with paragraphs separated by a blank line. "
             "Crucially, ensure the following proper nouns are spelled and cased correctly throughout the text: "
-            "The software is called 'TradeAware'. The company is called 'LiveEO'. Sometimes the EUDR is mentioned."
             "However, your cleaned transcript should remain close to the original, only making changes necessary for clarity, grammar, and readability."
         )},
                   {"role":"user","content":txt}],temperature=0.6)
